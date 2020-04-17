@@ -10,7 +10,7 @@ videos:
     src: johnossi_konzert.mp4
   - name: 'Interview mit Miss A. Gee'
     src: johnossi_interview.mp4
-cover: ./video-stills/Johnossi_Konzert.jpg
+cover: /assets/Johnossi_Konzert.jpg
 ---
 
 John und Ossi waren in München und das Team Southside war auch da! Schönes Interview von Miss A.Gee und auch die Kameraabteilung mit Axel und Terence hatten Spaß.

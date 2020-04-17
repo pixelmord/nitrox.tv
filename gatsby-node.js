@@ -3,10 +3,12 @@
 const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const siteConfig = require("./data/SiteConfig");
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
+  fmImagesToRelative(node);
   let slug;
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);

@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Three_Chord_Society-2010-02-21-11h34m32s195.jpg
+cover: /assets/Three_Chord_Society-2010-02-21-11h34m32s195.jpg
 ---

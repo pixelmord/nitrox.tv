@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Clutch.jpg
+cover: /assets/Clutch.jpg
 ---

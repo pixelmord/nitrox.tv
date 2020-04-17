@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Elvis_Jackson.jpg
+cover: /assets/Elvis_Jackson.jpg
 ---

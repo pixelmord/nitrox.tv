@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Kamchatka.jpg
+cover: /assets/Kamchatka.jpg
 ---

@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Nashville_Pussy.jpg
+cover: /assets/Nashville_Pussy.jpg
 ---

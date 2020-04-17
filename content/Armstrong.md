@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Armstrong.jpg
+cover: /assets/Armstrong.jpg
 ---

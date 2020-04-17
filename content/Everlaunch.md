@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Everlaunch.jpg
+cover: /assets/Everlaunch.jpg
 ---

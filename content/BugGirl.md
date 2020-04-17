@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/bug-girl-hafenklang.jpg
+cover: /assets/bug-girl-hafenklang.jpg
 ---

@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/das-pack.jpg
+cover: /assets/das-pack.jpg
 ---

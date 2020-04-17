@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/dudeman-2010-02-21-08h32m57s223.jpg
+cover: /assets/dudeman-2010-02-21-08h32m57s223.jpg
 ---

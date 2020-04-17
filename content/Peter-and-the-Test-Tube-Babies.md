@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Peter_and_the_Test_Tube_Babies.jpg
+cover: /assets/Peter_and_the_Test_Tube_Babies.jpg
 ---

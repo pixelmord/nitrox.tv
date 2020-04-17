@@ -10,7 +10,7 @@ tags:
   - konzert
 city: Kiel
 location: Schaubude
-cover: ./video-stills/Armstrong.jpg
+cover: /assets/Armstrong.jpg
 ---
 
 Lange hat's gedauert, aber jetzt isses raus: das neue Album von Armstrong!

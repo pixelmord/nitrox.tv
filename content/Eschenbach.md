@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/eschenbach-2010-03-16-21h46m32s236.jpg
+cover: /assets/eschenbach-2010-03-16-21h46m32s236.jpg
 ---

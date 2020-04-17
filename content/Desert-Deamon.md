@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Desert_Deamon.jpg
+cover: /assets/Desert_Deamon.jpg
 ---

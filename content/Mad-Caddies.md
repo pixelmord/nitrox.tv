@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/mad_caddies.jpg
+cover: /assets/mad_caddies.jpg
 ---

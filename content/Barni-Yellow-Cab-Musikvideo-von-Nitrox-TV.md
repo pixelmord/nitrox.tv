@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Barni.jpg
+cover: /assets/Barni.jpg
 ---

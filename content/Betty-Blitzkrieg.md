@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Betty_Blitzkrieg.jpg
+cover: /assets/Betty_Blitzkrieg.jpg
 ---

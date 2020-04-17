@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/OrdenOgan_Konzert.jpg
+cover: /assets/OrdenOgan_Konzert.jpg
 ---

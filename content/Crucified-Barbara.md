@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Crucified_Barbara.jpg
+cover: /assets/Crucified_Barbara.jpg
 ---

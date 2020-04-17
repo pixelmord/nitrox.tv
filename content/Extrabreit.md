@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Extrabreit-2010-02-21-11h49m05s227.jpg
+cover: /assets/Extrabreit-2010-02-21-11h49m05s227.jpg
 ---

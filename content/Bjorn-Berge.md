@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Bjoern_Berge.jpg
+cover: /assets/Bjoern_Berge.jpg
 ---

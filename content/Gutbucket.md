@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Gutbucket.jpg
+cover: /assets/Gutbucket.jpg
 ---

@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/One_Fine_Day.jpg
+cover: /assets/One_Fine_Day.jpg
 ---

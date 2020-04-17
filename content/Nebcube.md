@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Nebcube.jpg
+cover: /assets/Nebcube.jpg
 ---

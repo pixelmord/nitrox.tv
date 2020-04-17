@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Hello_Gravity.jpg
+cover: /assets/Hello_Gravity.jpg
 ---

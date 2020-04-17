@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/the_boss_hoss.jpg
+cover: /assets/the_boss_hoss.jpg
 ---

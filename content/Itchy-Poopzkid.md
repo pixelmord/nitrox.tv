@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Itchy_Poopzkid.jpg
+cover: /assets/Itchy_Poopzkid.jpg
 ---

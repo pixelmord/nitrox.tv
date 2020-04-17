@@ -8,7 +8,7 @@ tags:
   - konzert
 city: Kiel
 location: Pumpe
-cover: ./video-stills/Das_Beben.jpg
+cover: /assets/Das_Beben.jpg
 ---
 
 ‚Das Beben’ hat die Pumpe gerockt! Die Jungens aus Kiel haben Ihrem Namen einiges an Ehre gemacht, und den Laden zum Beben gebracht. Ein feines Stück Rock im Rahmen der Showbox zur Kieler Woche. Harte Riffs, groovende Beats und deutsche Texte mit Tiefgang, röhrend vorgetragen. Schönes Ding!

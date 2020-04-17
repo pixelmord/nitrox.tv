@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Big_Boy.jpg
+cover: /assets/Big_Boy.jpg
 ---

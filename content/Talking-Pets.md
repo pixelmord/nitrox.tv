@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Talking_Pets.jpg
+cover: /assets/Talking_Pets.jpg
 ---

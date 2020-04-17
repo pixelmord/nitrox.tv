@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/V8_Wixxer.jpg
+cover: /assets/V8_Wixxer.jpg
 ---

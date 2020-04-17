@@ -8,7 +8,7 @@ location: Backstage
 videos:
   - name: 'Johnossi live im Backstage'
     src: johnossi_konzert.mp4
-cover: ./video-stills/BrittaPersson.jpg
+cover: /assets/BrittaPersson.jpg
 ---
 
 Britta hat als Vorband von Johnossi eine gute Figur und auch gute Musik gemacht.

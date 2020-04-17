@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Rene_Marik.jpg
+cover: /assets/Rene_Marik.jpg
 ---

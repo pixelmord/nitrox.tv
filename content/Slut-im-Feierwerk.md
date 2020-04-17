@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover: ./video-stills/Slut_1.jpg
+cover: /assets/Slut_1.jpg
 ---

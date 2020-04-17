@@ -20,4 +20,11 @@ collections:
       - { label: 'Cover Image', name: 'cover', widget: 'image' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - label: 'Videos'
+        name: 'videos'
+        collapsed: true
+        widget: 'list'
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: URL, name: src, widget: string }
       - { label: 'Body', name: 'body', widget: 'markdown' }

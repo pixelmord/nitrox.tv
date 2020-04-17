@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/Saints_Konzert_Special.jpg
 ---

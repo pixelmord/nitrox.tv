@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
     "gatsby-plugin-lodash",
     {
       resolve: "gatsby-source-filesystem",
@@ -170,7 +171,6 @@ module.exports = {
                       title
                       cover
                       date
-                      category
                       tags
                     }
                   }

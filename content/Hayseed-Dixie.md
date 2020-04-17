@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/hayseed_dixie_concert.jpg
 ---

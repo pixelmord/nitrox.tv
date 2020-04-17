@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/New-Model-Army-2010-02-21-10h26m19s208.jpg
 ---

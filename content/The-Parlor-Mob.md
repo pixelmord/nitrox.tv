@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/parlor-mob_videosnap03.jpg
 ---

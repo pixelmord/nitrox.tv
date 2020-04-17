@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/blacksheep-2010-02-21-08h01m59s75.jpg
 ---

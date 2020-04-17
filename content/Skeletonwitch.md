@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/skeletonwitch_concert_beide_48.jpg
 ---

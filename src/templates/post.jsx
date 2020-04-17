@@ -24,23 +24,21 @@ export default class PostTemplate extends React.Component {
 
     return (
       <Layout>
-        <div>
-          <Helmet>
-            <title>{`${post.title} | ${config.siteTitle}`}</title>
-          </Helmet>
-          <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
-            <h1>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={postNode} />
-            </div>
-            <UserInfo config={config} />
-            <Disqus postNode={postNode} />
-            <Footer config={config} />
+        <Helmet>
+          <title>{`${post.title} | ${config.siteTitle}`}</title>
+        </Helmet>
+        <SEO postPath={slug} postNode={postNode} postSEO />
+        <main>
+          <h1>{post.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <div className="post-meta">
+            <PostTags tags={post.tags} />
+            <SocialLinks postPath={slug} postNode={postNode} />
           </div>
-        </div>
+          <UserInfo config={config} />
+          <Disqus postNode={postNode} />
+          <Footer config={config} />
+        </main>
       </Layout>
     );
   }
@@ -55,9 +53,19 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         title
-        cover
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         date
         tags
+        videos {
+          src
+          name
+        }
       }
       fields {
         slug

@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/toxicholocaust_concert_cam02_19902.jpg
 ---

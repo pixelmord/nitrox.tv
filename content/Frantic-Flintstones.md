@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/Frantic_Flintstones_Konzert_im_591_-_Band_0.jpg
 ---

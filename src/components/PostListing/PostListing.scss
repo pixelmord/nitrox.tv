@@ -1,0 +1,4 @@
+.post-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 400px));
+}

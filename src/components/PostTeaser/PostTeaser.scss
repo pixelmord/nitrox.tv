@@ -1,0 +1,9 @@
+.post-teaser {
+  position: relative;
+  &__headline {
+    padding: 0 0.5em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}

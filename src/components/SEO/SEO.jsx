@@ -18,7 +18,7 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
-      image = postMeta.cover;
+      image = postMeta.cover.childImageSharp.fluid.src;
       postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
     } else {
       title = config.siteTitle;
@@ -47,7 +47,7 @@ class SEO extends Component {
       return moment(postNode.frontmatter.date, config.dateFromFormat).toDate();
     };
 
-    image = getImagePath(image);
+
 
     const datePublished = getPublicationDate();
 

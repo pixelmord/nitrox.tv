@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/Backyard_Babies-2010-02-25-23h23m54s190.jpg
 ---

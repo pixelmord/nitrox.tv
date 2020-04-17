@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/bandofskulls_atomiccafe_concert_3086.jpg
 ---

@@ -39,14 +39,12 @@ class Listing extends React.Component {
 
     return (
       <Layout>
-        <div className="listing-container">
-          <div className="posts-container">
-            <Helmet title={config.siteTitle} />
-            <SEO />
-            <PostListing postEdges={postEdges} />
-          </div>
+        <Helmet title={config.siteTitle} />
+        <SEO />
+        <main className="listing-container">
+          <PostListing postEdges={postEdges} />
           {this.renderPaging()}
-        </div>
+        </main>
       </Layout>
     );
   }
@@ -73,7 +71,13 @@ export const listingQuery = graphql`
           frontmatter {
             title
             tags
-            cover
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             date
           }
         }

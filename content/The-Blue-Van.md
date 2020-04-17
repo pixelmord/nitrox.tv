@@ -8,5 +8,5 @@ tags:
   - konzert
 city:
 location:
-cover:
+cover: ./video-stills/The_Blue_Van_Konzert.jpg
 ---

@@ -2,9 +2,9 @@
 title: Armstrong CD Release
 videos:
   - name: Beweisaufnahme in der Schaubude/Kiel
-    src: https://www.dropbox.com/s/vp6dw9d8skl460f/armstrong_konzert_2010%2025.mp4?dl=0
+    src: https://dl.dropboxusercontent.com/s/vp6dw9d8skl460f/armstrong_konzert_2010%2025.mp4?dl=0
   - name: 'Interview mit Mr. Mad Jazz Morales'
-    src: https://www.dropbox.com/s/641zuki6i9uheoa/armstrong_interview_schaubude%2023.mp4?dl=0
+    src: https://dl.dropboxusercontent.com/s/641zuki6i9uheoa/armstrong_interview_schaubude%2023.mp4?dl=0
 date: 2010-03-26
 tags:
   - konzert

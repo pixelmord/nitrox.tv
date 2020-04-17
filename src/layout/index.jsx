@@ -1,6 +1,7 @@
 import React from "react";
 import {Helmet} from "react-helmet";
 import config from "../../data/SiteConfig";
+import Footer from "../components/Footer/Footer";
 import "./index.scss";
 
 export default class MainLayout extends React.Component {
@@ -13,6 +14,7 @@ export default class MainLayout extends React.Component {
           <html lang="de" />
         </Helmet>
         {children}
+        <Footer config={config} />
       </div>
     );
   }

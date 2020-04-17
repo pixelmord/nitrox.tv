@@ -1,9 +1,17 @@
 @import '~normalize-scss/sass/normalize/import-now';
+@import '~video-react/styles/scss/video-react';
 :root {
   --color-primary: #df3742;
   --color-secondary: #f56416;
   --color-tertiary: #e28413;
   --color-background: #1e1d1e;
+  --color-grayDarkest: #323132;
+  --color-grayDarker: #3c3a3c;
+  --color-grayDark: #545254;
+  --color-gray: rgb(125, 119, 119);
+  --color-grayLight: rgb(164, 155, 155);
+  --color-grayLighter: rgb(196, 188, 190);
+  --color-grayLightest: rgb(223, 212, 212);
 }
 
 * {
@@ -31,6 +39,7 @@ body {
 .layout-container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   & > main {
     margin: 0 auto;
     width: 90%;

@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Nitrox.TV", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Nitrox.TV - Internetfernsehen, Konzertmitschnitte und Interviews von Bands und Fans", // Alternative site title for SEO.
   siteLogo: "/logos/logo-645.png", // Logo used for SEO and manifest.
-  siteUrl: "https://notyet.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://nitroxtv.netlify.app", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Nitrox.Tv macht Internetfernsehen. Wir filmen Videos von Konzertmitschnitten und machen Interviews mit Bands und Fans aus allen Bereichen der Rockmusik.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.

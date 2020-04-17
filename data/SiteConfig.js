@@ -10,7 +10,7 @@ const config = {
   siteRssTitle: "Nitrox.TV RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-10770592-1", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  disqusShortname: "nitrox-tv", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD.MM.YYYY", // Date format for display.
   postsPerPage: 25, // Amount of posts displayed per listing page.

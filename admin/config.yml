@@ -1,7 +1,6 @@
 backend:
-  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
   branch: master # Branch to update
-  repo: pixelmord/nitrox.tv # Repo for pushing new commits. Make sure to replace with your repo!
 
 media_folder: static/assets
 public_folder: assets
@@ -11,11 +10,20 @@ collections:
     label: 'Post'
     folder: 'content'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}.md'
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}.md'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'City', name: 'city', widget: 'string' }
+      - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Cover Image', name: 'cover', widget: 'image' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - label: 'Videos'
+        name: 'videos'
+        collapsed: true
+        widget: 'list'
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: URL, name: src, widget: string }
       - { label: 'Body', name: 'body', widget: 'markdown' }

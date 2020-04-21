@@ -9,7 +9,7 @@ tags:
   - konzert
 videos:
   - name: Interview
-    src: 'https://dl.dropboxusercontent.com/s/5pj4s5zz5sva2b8/airbourne_iv%2022.mp4'
+    src: 'https://drive.google.com/uc?export=download&id=15LR9Mvm4-q9qiAyVeGQWNebk1hMqEYi5'
 ---
 
 'No Guts - No Glory' heißt die aktuelle Tour von 'Airbourne' (ebenso wie die Platte) und sie zeigt, dass Airbourne in einer Reihe steht mit Bands wie Rose Tatoo oder AC/DC; sind halt nur noch ein bißchen jünger 😀. Getroffen haben wir sie im Huxleys in Berlin.

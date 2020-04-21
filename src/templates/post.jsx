@@ -23,7 +23,7 @@ const PostTemplate = ({ data, pageContext }) => {
   if (!post.id) {
     post.id = slug;
   }
-  const [src, setSource] = useState(post.videos[0].src);
+  const [src, setSource] = useState(post.videos[0].src || '');
 
   if (playerEl.current) {
     const VideoPlayer = playerEl.current;

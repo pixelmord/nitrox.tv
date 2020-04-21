@@ -21,9 +21,9 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - label: 'Videos'
         name: 'videos'
-        collapsed: true
+        collapsed: false
         widget: 'list'
         fields:
           - { label: Name, name: name, widget: string }
-          - { label: URL, name: src, widget: string }
+          - { label: URL, name: src, widget: string, hint: 'https://drive.google.com/uc?export=download&id=💥FILE_ID' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -12,12 +12,17 @@ collections:
     create: true
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}.md'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'City', name: 'city', widget: 'string' }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'datetime' }
+      - { label: 'Stadt', name: 'city', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
-      - { label: 'Cover Image', name: 'cover', widget: 'image' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Vorschaubild', name: 'cover', widget: 'image', hint: 'Für die Liste und als Player-Hintergrund' }
+      - {
+          label: 'Slug',
+          name: 'slug',
+          widget: 'string',
+          hint: 'Gewünschte Webadresse ohne "https://nitrox.tv" vorne dran. Z.B. "crucified-barbara-muenchen-garage"',
+        }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - label: 'Videos'
         name: 'videos'
@@ -26,4 +31,4 @@ collections:
         fields:
           - { label: Name, name: name, widget: string }
           - { label: URL, name: src, widget: string, hint: 'https://drive.google.com/uc?export=download&id=💥FILE_ID' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Text', name: 'body', widget: 'markdown', hint: 'Text des Konzert-Artikels' }

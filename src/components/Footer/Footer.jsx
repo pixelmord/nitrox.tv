@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import UserLinks from "../UserLinks/UserLinks";
-import "./Footer.css";
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import UserLinks from '../UserLinks/UserLinks';
+import './Footer.css';
 
 class Footer extends Component {
   render() {
@@ -18,15 +18,14 @@ class Footer extends Component {
           <h4>{copyright}</h4>
 
           <Link to={url}>
-            <button>Subscribe</button>
+            <button type="button">
+              <span role="img" aria-label="feed">
+                🍼
+              </span>
+{' '}
+              Subscribe to RSS
+            </button>
           </Link>
-          <h4>
-            Based on{" "}
-            <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-              Gatsby Advanced Starter
-            </a>
-            .
-          </h4>
         </div>
       </footer>
     );

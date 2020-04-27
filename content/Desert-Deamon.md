@@ -1,4 +1,5 @@
 ---
+slug: desert-deamon
 title: Desert Deamon
 videos:
   - name: ''

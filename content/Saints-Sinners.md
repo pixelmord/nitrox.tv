@@ -1,4 +1,5 @@
 ---
+slug: saints-sinners
 title: Saints & Sinners
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: boss-hoss
 title: Boss Hoss
 videos:
   - name: ''

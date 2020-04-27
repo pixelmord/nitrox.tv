@@ -1,4 +1,5 @@
 ---
+slug: hello-gravity
 title: Hello Gravity
 videos:
   - name: ''

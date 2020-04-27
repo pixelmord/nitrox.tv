@@ -1,4 +1,5 @@
 ---
+slug: i-walk-the-line
 title: I Walk The Line
 videos:
   - name: ''

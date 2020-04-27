@@ -1,4 +1,5 @@
 ---
+slug: v8-wixxer
 title: V8 Wixxer
 videos:
   - name: ''

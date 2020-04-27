@@ -1,4 +1,5 @@
 ---
+slug: buggirl
 title: BugGirl
 videos:
   - name: ''

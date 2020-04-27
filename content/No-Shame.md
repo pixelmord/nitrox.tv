@@ -1,4 +1,5 @@
 ---
+slug: no-shame
 title: No Shame
 videos:
   - name: ''

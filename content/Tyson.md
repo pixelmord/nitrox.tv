@@ -1,4 +1,5 @@
 ---
+slug: tyson
 title: Tyson
 videos:
   - name: ''

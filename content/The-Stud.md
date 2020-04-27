@@ -1,4 +1,5 @@
 ---
+slug: the-stud
 title: The Stud
 videos:
   - name: ''

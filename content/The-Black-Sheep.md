@@ -1,4 +1,5 @@
 ---
+slug: the-black-sheep
 title: The Black Sheep
 videos:
   - name: ''

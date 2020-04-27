@@ -1,4 +1,5 @@
 ---
+slug: frantic-flintstones
 title: Frantic Flintstones
 videos:
   - name: ''

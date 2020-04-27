@@ -1,4 +1,5 @@
 ---
+slug: band-of-skulls
 title: Band of Skulls
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: three-chord-society
 title: Three Chord Society
 videos:
   - name: ''

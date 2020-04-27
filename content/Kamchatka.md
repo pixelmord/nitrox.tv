@@ -1,4 +1,5 @@
 ---
+slug: kamchatka
 title: Kamchatka
 videos:
   - name: ''

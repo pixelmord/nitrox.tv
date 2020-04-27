@@ -1,4 +1,5 @@
 ---
+slug: wacken-open-air-2009
 title: Wacken Open Air 2009
 videos:
   - name: ''

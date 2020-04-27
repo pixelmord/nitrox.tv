@@ -1,4 +1,5 @@
 ---
+slug: eschenbach
 title: Eschenbach
 videos:
   - name: ''

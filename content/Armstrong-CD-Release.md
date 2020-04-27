@@ -1,4 +1,5 @@
 ---
+slug: armstrong-cd-release
 title: Armstrong CD Release
 videos:
   - name: Beweisaufnahme in der Schaubude/Kiel

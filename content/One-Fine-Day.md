@@ -1,4 +1,5 @@
 ---
+slug: one-fine-day
 title: One Fine Day
 videos:
   - name: ''

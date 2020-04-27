@@ -1,4 +1,5 @@
 ---
+slug: lions-of-nebraska
 title: Lions of Nebraska
 videos:
   - name: ''

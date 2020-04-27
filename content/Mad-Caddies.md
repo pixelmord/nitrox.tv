@@ -1,4 +1,5 @@
 ---
+slug: mad-caddies
 title: Mad Caddies
 videos:
   - name: ''

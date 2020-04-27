@@ -1,4 +1,5 @@
 ---
+slug: hello-bomb
 title: Hello Bomb
 videos:
   - name: ''

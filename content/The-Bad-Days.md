@@ -1,4 +1,5 @@
 ---
+slug: the-bad-days
 title: The Bad Days
 videos:
   - name: ''

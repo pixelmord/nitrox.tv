@@ -1,4 +1,5 @@
 ---
+slug: toxic-holocaust
 title: Toxic Holocaust
 videos:
   - name: ''

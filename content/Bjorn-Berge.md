@@ -1,4 +1,5 @@
 ---
+slug: bjorn-berge
 title: Björn Berge
 videos:
   - name: ''

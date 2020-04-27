@@ -1,4 +1,5 @@
 ---
+slug: nitrox-musikvideo-von-nitrovolt
 title: Nitrox-Musikvideo von Nitrovolt
 videos:
   - name: ''

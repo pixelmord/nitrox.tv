@@ -1,4 +1,5 @@
 ---
+slug: everlaunch
 title: Everlaunch
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: das-bibo
 title: Das Bibo
 videos:
   - name: ''

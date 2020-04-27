@@ -1,4 +1,5 @@
 ---
+slug: das-beben
 title: Das Beben
 videos:
   - name: 'Stazione indentificatione, nech...'

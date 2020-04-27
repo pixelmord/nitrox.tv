@@ -1,4 +1,5 @@
 ---
+slug: nebcube
 title: Nebcube
 videos:
   - name: ''

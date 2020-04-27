@@ -1,4 +1,5 @@
 ---
+slug: johnossi
 title: Johnossi
 date: 2011-01-26
 tags:

@@ -1,4 +1,5 @@
 ---
+slug: gamma-ray
 title: Gamma Ray
 videos:
   - name: ''

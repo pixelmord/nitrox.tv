@@ -1,4 +1,5 @@
 ---
+slug: front-242
 title: Front 242
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: rene-marik
 title: René Marik
 videos:
   - name: ''

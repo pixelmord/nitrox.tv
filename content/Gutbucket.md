@@ -1,4 +1,5 @@
 ---
+slug: gutbucket
 title: Gutbucket
 videos:
   - name: ''

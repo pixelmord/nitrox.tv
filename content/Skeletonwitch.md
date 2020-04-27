@@ -1,4 +1,5 @@
 ---
+slug: skeletonwitch
 title: Skeletonwitch
 videos:
   - name: ''

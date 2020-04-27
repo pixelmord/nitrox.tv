@@ -1,4 +1,5 @@
 ---
+slug: backyard-babies
 title: Backyard Babies
 videos:
   - name: ''

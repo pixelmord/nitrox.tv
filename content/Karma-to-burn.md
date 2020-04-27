@@ -1,4 +1,5 @@
 ---
+slug: karma-to-burn
 title: Karma to burn
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: britta-persson
 title: Britta Persson
 date: 2010-01-26
 tags:

@@ -1,4 +1,5 @@
 ---
+slug: extrabreit
 title: Extrabreit
 videos:
   - name: ''

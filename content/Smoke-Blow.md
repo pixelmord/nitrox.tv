@@ -1,4 +1,5 @@
 ---
+slug: smoke-blow
 title: Smoke Blow
 videos:
   - name: ''

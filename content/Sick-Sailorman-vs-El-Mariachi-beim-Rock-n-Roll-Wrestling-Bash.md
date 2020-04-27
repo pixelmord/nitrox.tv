@@ -1,4 +1,5 @@
 ---
+slug: sick-sailorman-vs-el-mariachi-beim-rock-n-roll-wrestling-bash
 title: Sick Sailorman vs El Mariachi beim Rock'n'Roll Wrestling Bash
 videos:
   - name: ''

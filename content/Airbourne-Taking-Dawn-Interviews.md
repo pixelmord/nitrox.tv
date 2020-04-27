@@ -1,10 +1,10 @@
 ---
+slug: airbourne-taking-dawn-interviews
 title: Airbourne / Taking Dawn - Interviews
 date: 2010-03-26T00:00:00.000Z
 city: Kiel
 location: Schaubude
 cover: /assets/AirbourneWallpaper1024_0.jpg
-slug: airbourne-taking-dawn-interviews
 tags:
   - konzert
 videos:

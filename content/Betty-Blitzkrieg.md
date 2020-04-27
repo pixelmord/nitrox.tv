@@ -1,4 +1,5 @@
 ---
+slug: betty-blitzkrieg
 title: Betty Blitzkrieg
 videos:
   - name: ''

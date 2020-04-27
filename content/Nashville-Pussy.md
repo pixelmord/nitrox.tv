@@ -1,4 +1,5 @@
 ---
+slug: nashville-pussy
 title: Nashville Pussy
 videos:
   - name: ''

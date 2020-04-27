@@ -1,4 +1,5 @@
 ---
+slug: bayside
 title: Bayside
 date: 2011-02-16
 city: München

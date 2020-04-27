@@ -1,4 +1,5 @@
 ---
+slug: slut-im-feierwerk
 title: Slut im Feierwerk
 videos:
   - name: ''

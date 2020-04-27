@@ -1,4 +1,5 @@
 ---
+slug: hayseed-dixie
 title: Hayseed Dixie
 videos:
   - name: ''

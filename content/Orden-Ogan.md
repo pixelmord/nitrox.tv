@@ -1,4 +1,5 @@
 ---
+slug: orden-ogan
 title: Orden Ogan
 videos:
   - name: ''

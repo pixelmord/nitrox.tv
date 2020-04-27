@@ -1,4 +1,5 @@
 ---
+slug: crucified-barbara
 title: Crucified Barbara
 videos:
   - name: ''

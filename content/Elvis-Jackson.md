@@ -1,4 +1,5 @@
 ---
+slug: elvis-jackson
 title: Elvis Jackson
 videos:
   - name: ''

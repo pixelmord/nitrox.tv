@@ -1,4 +1,5 @@
 ---
+slug: grantig
 title: Grantig
 videos:
   - name: ''

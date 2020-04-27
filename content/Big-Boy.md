@@ -1,4 +1,5 @@
 ---
+slug: big-boy
 title: Big Boy
 videos:
   - name: ''

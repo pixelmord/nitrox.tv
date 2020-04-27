@@ -1,4 +1,5 @@
 ---
+slug: nitrovolt
 title: Nitrovolt
 videos:
   - name: ''

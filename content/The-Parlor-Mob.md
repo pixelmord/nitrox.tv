@@ -1,4 +1,5 @@
 ---
+slug: the-parlor-mob
 title: The Parlor Mob
 videos:
   - name: ''

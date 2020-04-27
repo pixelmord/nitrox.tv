@@ -1,4 +1,5 @@
 ---
+slug: barni-yellow-cab-musikvideo-von-nitrox-tv
 title: Barni - Yellow Cab - Musikvideo von Nitrox.TV
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: clutch
 title: Clutch
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: talking-pets
 title: Talking Pets
 videos:
   - name: ''

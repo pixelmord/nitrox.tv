@@ -1,4 +1,5 @@
 ---
+slug: the-blue-van
 title: The Blue Van
 videos:
   - name: ''

@@ -1,4 +1,5 @@
 ---
+slug: dudeman
 title: Dudeman
 videos:
   - name: ''

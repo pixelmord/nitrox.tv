@@ -1,4 +1,5 @@
 ---
+slug: itchy-poopzkid
 title: Itchy Poopzkid
 videos:
   - name: ''

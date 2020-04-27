@@ -1,4 +1,5 @@
 ---
+slug: new-model-army
 title: New Model Army
 videos:
   - name: ''

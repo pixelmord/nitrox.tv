@@ -1,4 +1,5 @@
 ---
+slug: das-pack
 title: Das Pack
 videos:
   - name: ''

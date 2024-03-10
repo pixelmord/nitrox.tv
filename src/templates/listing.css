@@ -1,9 +1,0 @@
-.listing-container {
-  min-height: 100%;
-}
-
-.paging-container {
-  min-width: 100%;
-  display: flex;
-  justify-content: space-between;
-}

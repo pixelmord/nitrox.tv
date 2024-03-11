@@ -1,0 +1,22 @@
+---
+export interface Props {
+  href: string;
+  className?: string;
+  ariaLabel?: string;
+  title?: string;
+
+}
+
+const { href, className, ariaLabel, title } = Astro.props;
+---
+
+<a
+  {href}
+  class={`inline-flex text-foreground w-10 h-10 p-2.5 rounded-full bg-white hover:bg-primary-600 hover:text-white justify-center align-middle hover:shadow-decorative-small-hover transition-shadow ${className}`}
+  aria-label={ariaLabel}
+  title={title}
+>
+  <slot />
+</a>
+
+

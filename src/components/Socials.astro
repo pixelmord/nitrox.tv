@@ -1,0 +1,22 @@
+---
+import { SOCIALS } from "@/config";
+import LinkButton from "./SocialLinkButton.astro";
+import socialIcons from "@/assets/socialIcons";
+
+---
+
+<div class="mx-auto max-w-2xl justify-center my-8 flex gap-6">
+  {
+    SOCIALS.filter(social => social.active).map(social => (
+      <LinkButton
+        href={social.href}
+        className="link-button"
+        title={social.linkTitle}
+      >
+        <Fragment set:html={socialIcons[social.name]} />
+        <span class="sr-only">{social.linkTitle}</span>
+      </LinkButton>
+    ))
+  }
+</div>
+

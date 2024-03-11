@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+export const prerender = true;
+
+const posts = (await getCollection('events')).sort(
+	(a, b) => a.data.date.valueOf() - b.data.date.valueOf()
+);
+---
+<Layout title="Events">
+	<main class="grid md:grid-cols-[1fr_60rem_1fr]">
+	<section class="container">
+		<ul>
+			{
+				posts.map((post) => (
+					<li>
+						<a href={`/rezepte/${post.slug}/`}>
+							{!!post.data.image && post.data.image.length > 0 && <img width={720} height={360} src={post.data.image[0]} alt="" />}
+							<h4 class="title">{post.data.title}</h4>
+							<p class="date">
+								<FormattedDate date={post.data.datePublished} />
+							</p>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</main>
+</Layout>

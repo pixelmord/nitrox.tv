@@ -9,14 +9,13 @@ export async function getStaticPaths() {
 		props: post,
 	}));
 }
-type Props = CollectionEntry<'recipes'>;
+type Props = CollectionEntry<'events'>;
 
 const post = Astro.props;
 const { Content } = await post.render();
 ---
 
 <EventLayout {...post.data}>
-	<main class="grid md:grid-cols-[1fr_60rem_1fr]">
-	<section class="container"><Content /></section>
-</main>
+
+<Content />
 </EventLayout>

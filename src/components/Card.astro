@@ -3,18 +3,18 @@ import FormattedDate from './FormattedDate.astro';
 
 interface Props {
 	title: string;
-	image: string;
+	image?: string;
 	href: string;
-	date: Date
+	date?: Date
 }
 
 const { href, image, title, date } = Astro.props;
 ---
 
-<li class="rounded-">
-	<a href={href}>
-		{!!image && <img width={320} height={80} src={image} alt="" />}
-		<h4 class="title">{title}</h4>
-			<FormattedDate date={date} />
+<li class="rounded-md bg-gray-800/80 backdrop-blur-xl backdrop-opacity-25 shadow-xl">
+	<a href={href} class="block rounded-md">
+		{!!image && <img width={320} height={80} src={image} alt="" class="rounded-t-md object-cover aspect-video"/>}
+		<h4 class="px-4 text-gray-300 text-xl my-2">{title}</h4>
+		{!!date && <FormattedDate date={date} class="block px-4 text-gray-500 text-sm py-2" />}
 	</a>
 </li>

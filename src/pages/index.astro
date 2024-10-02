@@ -5,15 +5,15 @@ import Layout from '../layouts/Layout.astro';
 export const prerender = true;
 import Card from '../components/Card.astro';
 
-const posts = (await getCollection('events')).sort(
+const posts = (await getCollection('events')).filter(e => e.data.published === true).sort(
 	(a, b) => a.data.date.valueOf() - b.data.date.valueOf()
 );
 
 ---
 <Layout title="Events">
-	<main class="grid md:grid-cols-[1fr_60rem_1fr]">
-	<section class="container">
-		<ul class="grid grid-cols-3">
+	<main class="grid md:grid-cols-[1fr_60rem_1fr] ">
+	<section class="content-container">
+		<ul class="grid grid-cols-3 gap-4">
 			{
 				posts.map((post) => (
 					<Card image={post.data.cover} href={`/events/${post.slug}/`} title={post.data.title} date={post.data.date}>

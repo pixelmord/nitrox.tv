@@ -17,9 +17,11 @@ const events = defineCollection({
       .object({
         name: z.string(),
         src: z.string().or(z.null()),
+        videoDescription: z.string().or(z.null()).optional(),
       })
       .array()
       .optional(),
+    published: z.boolean().optional(),
   }),
 });
 

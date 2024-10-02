@@ -85,6 +85,11 @@ export default defineConfig({
                 label: 'Source',
                 required: true,
               },
+              {
+                type: 'rich-text',
+                name: 'videoDescription',
+                label: 'Video Description',
+              },
             ],
           },
           {
@@ -92,6 +97,11 @@ export default defineConfig({
             name: 'body',
             label: 'Body',
             isBody: true,
+          },
+          {
+            type: 'boolean',
+            name: 'published',
+            label: 'Published',
           },
 
           /*

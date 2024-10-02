@@ -8,8 +8,9 @@ cover: /assets/AirbourneWallpaper1024_0.jpg
 tags:
   - konzert
 videos:
-  - name: Interview
-    src: 'https://drive.google.com/uc?export=download&id=15LR9Mvm4-q9qiAyVeGQWNebk1hMqEYi5'
+  - name: Interview mit Maschine
+    src: GYsdBr3wsfsYRpAPN00EoMa5pVvfWfVpS3ynahK1IZfE
+    videoDescription: ''
 ---
 
 'No Guts - No Glory' heißt die aktuelle Tour von 'Airbourne' (ebenso wie die Platte) und sie zeigt, dass Airbourne in einer Reihe steht mit Bands wie Rose Tatoo oder AC/DC; sind halt nur noch ein bißchen jünger 😀. Getroffen haben wir sie im Huxleys in Berlin.
@@ -24,5 +25,5 @@ Rock - Maschine
 
 **Weblink:**
 
-http://www.myspace.com/airbourne
-http://www.myspace.com/takingdawn
+[http://www.myspace.com/airbourne](http://www.myspace.com/airbourne)
+[http://www.myspace.com/takingdawn](http://www.myspace.com/takingdawn)

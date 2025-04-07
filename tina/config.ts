@@ -11,7 +11,7 @@ export default defineConfig({
 	branch,
 
 	// Get this from tina.io
-	clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+	clientId: process.env.PUBLIC_TINA_CLIENT_ID,
 	// Get this from tina.io
 	token: process.env.TINA_TOKEN,
 
@@ -113,20 +113,6 @@ export default defineConfig({
 						name: "published",
 						label: "Published",
 					},
-
-					/*
-          slug: airbourne-taking-dawn-interviews
-
-
-city: Kiel
-location: Schaubude
-cover: /assets/AirbourneWallpaper1024_0.jpg
-tags:
-  - konzert
-videos:
-  - name: Interview
-    src: 'https://drive.google.com/uc?export=download&id=15LR9Mvm4-q9qiAyVeGQWNebk1hMqEYi5'
-  */
 				],
 			},
 		],

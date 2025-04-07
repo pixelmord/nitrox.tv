@@ -1,12 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
 export const prerender = true;
 
-const posts = (await getCollection('events')).sort(
-	(a, b) => a.data.date.valueOf() - b.data.date.valueOf()
+const posts = (await getCollection("events")).sort(
+	(a, b) => a.data.date.valueOf() - b.data.date.valueOf(),
 );
+console.log(posts);
 ---
 <Layout title="Events">
 	<main class="grid md:grid-cols-[1fr_60rem_1fr]">
@@ -15,11 +16,11 @@ const posts = (await getCollection('events')).sort(
 			{
 				posts.map((post) => (
 					<li>
-						<a href={`/rezepte/${post.slug}/`}>
-							{!!post.data.image && post.data.image.length > 0 && <img width={720} height={360} src={post.data.image[0]} alt="" />}
+						<a href={`/events/${post.id}/`}>
+							{!!post.data.cover &&<img width={720} height={360} src={post.data.cover} alt="" />}
 							<h4 class="title">{post.data.title}</h4>
 							<p class="date">
-								<FormattedDate date={post.data.datePublished} />
+								<FormattedDate date={post.data.date} />
 							</p>
 						</a>
 					</li>

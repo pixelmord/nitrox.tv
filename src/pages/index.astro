@@ -1,22 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../layouts/Layout.astro';
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
 
 export const prerender = true;
-import Card from '../components/Card.astro';
+import Card from "../components/Card.astro";
 
-const posts = (await getCollection('events')).filter(e => e.data.published === true).sort(
-	(a, b) => a.data.date.valueOf() - b.data.date.valueOf()
-);
-
+const posts = (await getCollection("events"))
+	.filter((e) => e.data.published === true)
+	.sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
 ---
 <Layout title="Events">
-	<main class="grid md:grid-cols-[1fr_60rem_1fr] ">
-	<section class="content-container">
-		<ul class="grid grid-cols-3 gap-4">
+	<main class="container mx-auto px-4 py-8 flex-grow">
+	<section class="container">
+		<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 			{
 				posts.map((post) => (
-					<Card image={post.data.cover} href={`/events/${post.slug}/`} title={post.data.title} date={post.data.date}>
+					<Card image={post.data.cover} href={`/events/${post.id}/`} title={post.data.title} date={post.data.date}>
 					</Card>
 				))
 			}

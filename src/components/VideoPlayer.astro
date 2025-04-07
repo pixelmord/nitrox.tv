@@ -1,0 +1,87 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+	videos: CollectionEntry<"events">["data"]["videos"];
+	title: string;
+};
+
+const { videos, title } = Astro.props;
+const currentSrc = videos?.[0]?.src;
+---
+
+{!!videos && videos.length > 0 && <div class="relative h-0 pb-[56.25%] w-full">
+  <iframe id="video-player" src={videos[0].src} loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>
+}
+{!!videos && videos.length > 1 && (
+  <div class="mt-4 bg-nitrox-darkgray rounded-lg overflow-hidden">
+    <div class="max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700">
+      {videos.map((playlistVideo) => (
+        <div
+          data-video-src={playlistVideo.src}
+          class={`flex items-center p-3 gap-3 transition-colors cursor-pointer ${
+            playlistVideo.src === currentSrc
+              ? 'bg-nitrox-gray'
+              : 'hover:bg-gray-800'
+          }`}
+        >
+          <div class="relative flex-shrink-0">
+            <img
+              src={playlistVideo.thumbnail}
+              alt={title}
+              class="w-20 h-12 object-cover rounded"
+            />
+            {/* <div class="absolute bottom-1 right-1 bg-black bg-opacity-80 px-1 text-xs rounded text-white">
+              {playlistVideo.duration}
+            </div> */}
+            {playlistVideo.src === currentSrc && (
+              <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div class="w-6 h-6 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            )}
+          </div>
+          <div class="overflow-hidden">
+            <h4 class="text-white text-sm font-medium truncate">
+              {playlistVideo.name}
+            </h4>
+            {/* <p class="text-gray-400 text-xs">{playlistVideo.band}</p> */}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<script>
+  function setupVideoSwitching() {
+    const videoPlayer = document.querySelector("#video-player");
+    const videoItems = document.querySelectorAll("[data-video-src]");
+
+    videoItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        const videoSrc = item.getAttribute("data-video-src");
+        if (videoSrc && videoPlayer) {
+          videoPlayer.setAttribute("src", videoSrc);
+
+          // Update active state visually
+          videoItems.forEach((v) => {
+            v.classList.remove("bg-nitrox-gray");
+            v.classList.add("hover:bg-gray-800");
+          });
+          item.classList.add("bg-nitrox-gray");
+          item.classList.remove("hover:bg-gray-800");
+        }
+      });
+    });
+  }
+
+  // Setup on initial load
+  setupVideoSwitching();
+
+  // Setup when content updates (for client-side navigation)
+  document.addEventListener("astro:page-load", setupVideoSwitching);
+</script>

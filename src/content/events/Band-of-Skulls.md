@@ -9,13 +9,22 @@ tags:
   - konzert
 videos:
   - name: Band of Skulls im Atomic Café
-    src: 2MKQWQ6102UmtbCWAKRStDnBQG00NrIOrmz02TX7G02aqTY
+    src: >-
+      https://iframe.mediadelivery.net/play/406805/9747ed44-491b-451c-a298-efe6add93218
+    thumbnail: >-
+      https://vz-547c5f03-5e6.b-cdn.net/ab6a30c6-68cf-4d37-bdcc-7b9bd3a78bbb/thumbnail.jpg
     videoDescription: ''
   - name: Band of Skulls - Konzertmitschnitt
-    src: YBAY7XEDRuSFTTBGWkiBLDGVi00FP02Ztz01XfnNh3nDbM
+    src: >-
+      https://iframe.mediadelivery.net/play/406805/84f2e9a7-e585-4db5-97d9-48f14e0f1fc4
+    thumbnail: >-
+      https://vz-547c5f03-5e6.b-cdn.net/84f2e9a7-e585-4db5-97d9-48f14e0f1fc4/thumbnail.jpg
     videoDescription: ''
-  - name: Interview
-    src: 6L01D7xDpkcD4oIK1uhtOh7HbjcFuxOlxlA2XQLYTz4o
+  - name: Band of Skulls - Interview
+    src: >-
+      https://iframe.mediadelivery.net/play/406805/c71277dc-3957-4760-926d-8f6c10868e00
+    thumbnail: >-
+      https://vz-547c5f03-5e6.b-cdn.net/c71277dc-3957-4760-926d-8f6c10868e00/thumbnail.jpg
     videoDescription: ''
 published: true
 ---

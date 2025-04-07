@@ -1,6 +1,67 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap') layer(base);
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans:
+    'Lato', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --color-secondary: var(--colors-secondary);
+  --color-accent: var(--colors-accent);
+  --color-background: var(--colors-background);
+  --color-foreground: var(--colors-foreground);
+  --color-border: var(--colors-border);
+  --color-error: var(--colors-error);
+  --color-success: var(--colors-success);
+  --color-warning: var(--colors-warning);
+  --color-info: var(--colors-info);
+  --color-white: var(--colors-white);
+  --color-black: var(--colors-black);
+
+  --color-primary-50: var(--colors-primary-50);
+  --color-primary-100: var(--colors-primary-100);
+  --color-primary-200: var(--colors-primary-200);
+  --color-primary-300: var(--colors-primary-300);
+  --color-primary-400: var(--colors-primary-400);
+  --color-primary-500: var(--colors-primary-500);
+  --color-primary-600: var(--colors-primary-600);
+  --color-primary-700: var(--colors-primary-700);
+  --color-primary-800: var(--colors-primary-800);
+  --color-primary-900: var(--colors-primary-900);
+
+  --color-nitrox-black: #0A0A0A;
+  --color-nitrox-darkgray: #222222;
+  --color-nitrox-gray: #444444;
+  --color-nitrox-red: #F97316;
+  --color-nitrox-blue: #33CCFF;
+
+  --shadow-decorative-big: var(--shadow-decorative-big);
+  --shadow-decorative-big-hover: var(--shadow-decorative-big-hover);
+  --shadow-decorative-small: var(--shadow-decorative-small);
+  --shadow-decorative-small-hover: var(--shadow-decorative-small-hover);
+
+  --font-sans: 'RocknRoll One', sans-serif;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 @layer base {
     :root,
@@ -18,7 +79,7 @@
         --colors-primary-800: #075985;
         --colors-primary-900: #0c4a6e;
         --colors-primary-950: #082f49;
-        --colors-white: #ffffff;
+        --colors-white: #f0f9ff;
         --shadow-decorative-big: 0 0 1px 13px rgba(4, 118, 208, 0.5),0 0 1px 26px rgba(4, 118, 208, 0.3);
         --shadow-decorative-big-hover: 0 0 1px 43px rgba(4, 118, 208, 0.3), 0 0 1px 87px rgba(4, 118, 208, 0.1);
         --shadow-decorative-small: 0 0 1px 13px var(--colors-primary-400),0 0 1px 26px var(--colors-primary-100);

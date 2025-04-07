@@ -1,20 +1,55 @@
 ---
-import FormattedDate from './FormattedDate.astro';
+import FormattedDate from "./FormattedDate.astro";
 
 interface Props {
 	title: string;
 	image?: string;
 	href: string;
-	date?: Date
+	date?: Date;
+	venue?: string;
+	band?: string;
+	duration?: string;
 }
 
-const { href, image, title, date } = Astro.props;
+const { href, image, title, date, venue, band, duration } = Astro.props;
 ---
 
-<li class="rounded-md bg-gray-800/80 backdrop-blur-xl backdrop-opacity-25 shadow-xl">
-	<a href={href} class="block rounded-md">
-		{!!image && <img width={320} height={80} src={image} alt="" class="rounded-t-md object-cover aspect-video"/>}
-		<h4 class="px-4 text-gray-300 text-xl my-2">{title}</h4>
-		{!!date && <FormattedDate date={date} class="block px-4 text-gray-500 text-sm py-2" />}
+<li class="bg-nitrox-darkgray rounded-lg overflow-hidden shadow-lg transition-transform duration-300 group-hover:scale-[1.02] border border-gray-800">
+	<a href={href} class="group block">
+
+		<div class="bg-nitrox-darkgray rounded-lg overflow-hidden shadow-lg transition-transform duration-300 group-hover:scale-[1.02] border border-gray-800">
+			<div class="relative">
+				<div class="aspect-video overflow-hidden">
+					<img
+						src={image}
+						alt={title}
+						class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+					/>
+				</div>
+				<div class="absolute bottom-2 right-2 bg-black bg-opacity-80 px-2 py-1 text-xs font-semibold rounded text-white">
+					{duration}
+				</div>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-300"></div>
+				<div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+					<div class="w-16 h-16 flex items-center justify-center rounded-full bg-nitrox-red bg-opacity-80 animate-pulse-glow">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-white">
+							<path fillRule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clipRule="evenodd" />
+						</svg>
+					</div>
+				</div>
+			</div>
+			<div class="p-4">
+				<h3 class="text-white text-xl md:text-2xl line-clamp-1">
+					{title}
+				</h3>
+				<p class="text-nitrox-red font-medium text-sm md:text-base mt-1">
+					{band}
+				</p>
+				<div class="flex justify-between mt-2 text-xs text-gray-400">
+					{!!date && <FormattedDate date={date} class="block text-gray-300 text-sm py-2" />}
+					<span>{venue}</span>
+				</div>
+			</div>
+		</div>
 	</a>
 </li>

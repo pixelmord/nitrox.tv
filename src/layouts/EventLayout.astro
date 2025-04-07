@@ -1,35 +1,45 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
 
-import FormattedDate from '../components/FormattedDate.astro';
-import Layout from './Layout.astro';
+import FormattedDate from "../components/FormattedDate.astro";
+import Layout from "./Layout.astro";
+import VideoPlayer from "@/components/VideoPlayer.astro";
 
-type Props = CollectionEntry<'events'>['data'];
+type Props = CollectionEntry<"events">["data"];
 
-const { videos, title, date, slug, body } = Astro.props;
+const { videos, title, date, location } = Astro.props;
 ---
 
 <Layout title={title}>
-	<main class="grid md:grid-cols-[1fr_60rem_1fr]">
-			<article class="flex flex-col space-y-4 w-full content-container">
-					<div class="prose ">
-						<div class="date">
-							{!!date && <FormattedDate date={date} />}
+	<main class="container mx-auto px-4 py-8">
+			<article>
+				<div class="max-w-6xl mx-auto">
+          {/* Video player section */}
+          <div class="mb-8">
+            <VideoPlayer
+              videos={videos}
+            />
+          </div>
 
-						</div>
-						<h1>{title}</h1>
-					</div>
-					{!!videos && videos.length > 0 && videos[0].src && <mux-player
-					className="w-full"
-					id={title}
-					playback-id={videos[0].src}
-					metadata-video-title="Placeholder (optional)"
-					metadata-viewer-user-id="Placeholder (optional)"
-					accent-color="#FF0000"
-				></mux-player>}
-				<div class="prose">
-				<slot/>
-				</div>
+          {/* Video info section */}
+          <div class="mb-8">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-teko text-white mb-2">
+              {title}
+            </h1>
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm mb-4">
+
+              {!!date && <FormattedDate date={date} />}
+              <span class="text-gray-400">{location}</span>
+            </div>
+
+            <div class="bg-nitrox-darkgray rounded-lg p-4 border border-gray-800">
+              <h3 class="text-white font-teko text-xl mb-2">About this performance</h3>
+              <div class="text-gray-300 leading-relaxed">
+                <slot/>
+              </div>
+            </div>
+          </div>
+
 			</article>
 		</main>
 
